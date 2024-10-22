@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+option {
+  color: black;
+}
+
+.messages-container::-webkit-scrollbar {
+  width: 12px; /* Larghezza della scrollbar */
+}
+
+.messages-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Colore di sfondo del track */
+  border-radius: 10px; /* Arrotondamento degli angoli */
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Colore del thumb */
+  border-radius: 10px; /* Arrotondamento degli angoli */
+  border: 3px solid #f1f1f1; /* Spazio tra il thumb e il track */
+}
+
+.messages-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Colore del thumb al passaggio del mouse */
+}
