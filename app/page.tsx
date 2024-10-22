@@ -144,7 +144,7 @@ export default function Chat() {
         w={{ base: '100%', md: '100%', xl: '100%' }}
         height={{ base: '100vh' }}
         maxW="1000px"
-        padding="10px"
+        padding={{ base: '20px', md: '10px' }}
         gap="20px"
       >
         {/* Main Box */}
@@ -234,7 +234,7 @@ export default function Chat() {
             borderRadius="45px"
             p="15px 20px"
             me="10px"
-            fontSize="sm"
+            fontSize="initial"
             fontWeight="500"
             _focus={{ borderColor: 'none' }}
             color={inputColor}
